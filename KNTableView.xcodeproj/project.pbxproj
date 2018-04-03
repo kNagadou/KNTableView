@@ -13,6 +13,7 @@
 		FFB3557D2071F905003E73C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB3557C2071F905003E73C3 /* Assets.xcassets */; };
 		FFB355802071F905003E73C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB3557E2071F905003E73C3 /* LaunchScreen.storyboard */; };
 		FFB3558B2071F905003E73C3 /* KNTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3558A2071F905003E73C3 /* KNTableViewTests.swift */; };
+		FFB35598207308A8003E73C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB35597207308A8003E73C3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FFB355862071F905003E73C3 /* KNTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB3558A2071F905003E73C3 /* KNTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNTableViewTests.swift; sourceTree = "<group>"; };
 		FFB3558C2071F905003E73C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB35597207308A8003E73C3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FFB355752071F900003E73C3 /* AppDelegate.swift */,
 				FFB355772071F900003E73C3 /* ViewController.swift */,
+				FFB35597207308A8003E73C3 /* DetailViewController.swift */,
 				FFB355792071F900003E73C3 /* Main.storyboard */,
 				FFB3557C2071F905003E73C3 /* Assets.xcassets */,
 				FFB3557E2071F905003E73C3 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB35598207308A8003E73C3 /* DetailViewController.swift in Sources */,
 				FFB355782071F900003E73C3 /* ViewController.swift in Sources */,
 				FFB355762071F900003E73C3 /* AppDelegate.swift in Sources */,
 			);
@@ -361,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A797L6F3UU;
 				INFOPLIST_FILE = KNTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A797L6F3UU;
 				INFOPLIST_FILE = KNTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
